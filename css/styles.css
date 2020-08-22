@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+  font-family: "Roboto";
+}
+.fontweb {
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+}
+
+.fontstudio {
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.fontstudio1 {
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+}
+.nav {
+  background: #ffffff;
+}
+.nav1 {
+  display: inline-block;
+  vertical-align: top;
+  color: #212121;
+  padding: left 200px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  transition: color 0.2s linear;
+}
+.nav1:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1.5px;
+  display: none;
+  background-color: #ffcc00;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+.nav1:hover {
+  color: #2196f3;
+}
+.nav1:hover:after {
+  display: block;
+}
+/*секция 1*/
+
+.section1 {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  background: #2f303a;
+}
+.section3 {
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+  background: #f5f4fa;
+}
+
+/*ПОДВАЛ*/
+.footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+
+  background: #2f303a;
+}
