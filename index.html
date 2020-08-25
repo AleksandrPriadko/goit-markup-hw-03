@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500&display=swap"
       rel="stylesheet"
     />
@@ -16,70 +20,77 @@
         <span class="fontweb">Web</span><span class="fontstudio">Studio</span>
       </h2>
       <nav class="nav">
-        <li class="nav1"><a href="./studio.html" class="menu">Студия</a></li>
-        <li class="nav1">
+        <h3 class="nav1"><a href="./studio.html" class="menu">Студия</a></h3>
+        <h3 class="nav1">
           <a href="./portfolio.html" class="menu">Портфолио</a>
-        </li>
-        <li class="nav1"><a href="" class="menu">Контакты</a></li>
+        </h3>
+        <h3 class="nav1"><a href="" class="menu">Контакты</a></h3>
       </nav>
-      <li class="nav2">
+      <h3 class="nav2">
         <a href="mailto:info@example.com" class="cont">info@example.com</a>
-      </li>
-      <li class="nav2">
+      </h3>
+      <h3 class="nav2">
         <a href="tel:+380991111111" class="cont">+38 099 111 11 11</a>
-      </li>
+      </h3>
     </header>
     <main>
-      <article>
+      <article class="article">
         <section class="section1">
-          <h1>Эффективные решения для вашего бизнеса</h1>
+          <h2 class="services">
+            <p>Эффективные решения</p>
+            <p>для вашего бизнеса</p>
+          </h2>
           <a href="">Заказать услугу</a>
         </section>
         <section class="section2">
-          <ul>
-            <li>
-              <h5>Внимание к деталям</h5>
-              <p>
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
-              </p>
+          <ul class="text-align">
+            <li class="gorizont">
+              <div class="blok">
+                <h5>Внимание к деталям</h5>
+                <p>
+                  Идейные соображения, а также начало повседневной работы по
+                  формированию позиции.
+                </p>
+              </div>
             </li>
-            <li>
-              <h5>Пунктуальность</h5>
-              <p>
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
-              </p>
+            <li class="gorizont">
+              <div class="blok">
+                <h5>Пунктуальность</h5>
+                <p>
+                  Задача организации, в особенности же рамки и место обучения
+                  кадров влечет за собой.
+                </p>
+              </div>
             </li>
-            <li>
-              <h5>Планирование</h5>
-              <p>
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
-              </p>
+            <li class="gorizont">
+              <div class="blok">
+                <h5>Планирование</h5>
+                <p>
+                  Равным образом консультация с широким активом в значительной
+                  степени обуславливает.
+                </p>
+              </div>
             </li>
-            <li>
-              <h5>Современные технологии</h5>
-              <p>
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </p>
+            <li class="gorizont">
+              <div class="blok">
+                <h5>Современные технологии</h5>
+                <p>
+                  Значимость этих проблем настолько очевидна, что реализация
+                  плановых заданий.
+                </p>
+              </div>
             </li>
+          </ul>
+          <h2 class="heading">Чем мы занимаемся</h2>
+          <ul class="img-box">
+            <li class="img-blok"><img src="./images/img(4).jpg" alt="Альтернативный текст" /></li> 
+            <li class="img-blok"><img src="./images/img(5).jpg" alt="Альтернативный текст" /></li>
+            <li class="img-blok"><img src="./images/img(6).jpg" alt="Альтернативный текст" /></li>
           </ul>
         </section>
         <section class="section3">
-          <h2>Чем мы занимаемся</h2>
-          <ul>
-            <li>
-              <img src="./images/img(4).jpg" alt="Альтернативный текст" />
-              <img src="./images/img(5).jpg" alt="Альтернативный текст" />
-              <img src="./images/img(6).jpg" alt="Альтернативный текст" />
-            </li>
-          </ul>
-        </section>
-        <section class="section4">
-          <h2>Наша команда</h2>
-          <ul>
+          <h2 class="our-team">Наша команда</h2>
+          <ul class="box-team">
             <li class="list-comand">
               <div class="bloc-comand">
                 <img
@@ -129,12 +140,14 @@
       </article>
     </main>
     <footer class="footer">
-      <h2 lang="en">
+      <h2 lang="en" class="logo-footer">
         <span class="fontweb">Web</span><span class="fontstudio1">Studio</span>
       </h2>
-      <address>г. Киев, пр-т Леси Украинки, 26</address>
-      <a href="mailto:info@example.com">info@example.com</a>
-      <a href="tel:+380991111111">+38 099 111 11 11</a>
+      <div class="address">
+        <p><address>г. Киев, пр-т Леси Украинки, 26</address></p>
+        <p><a href="mailto:info@example.com">info@example.com</a></p>
+        <p><a href="tel:+380991111111">+38 099 111 11 11</a></p>
+      </div>
     </footer>
   </body>
 </html>

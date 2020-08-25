@@ -1,12 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
 body {
   margin: 0px;
   font-family: "Roboto";
-  position: absolute;
+  z-index: 0;
 }
 /*Логотип*/
 .logo {
+  display: inline-block;
   margin: 0px;
-  position: absolute;
+  position: relative;
   left: 215px;
   top: 24px;
 }
@@ -41,12 +50,11 @@ body {
 
 /* Шапка сайта*/
 .Header {
+  display: inline-block;
   background: #ffffff;
-  position: relative;
+  position: static;
   width: 1600px;
   height: 80px;
-  left: 0px;
-  top: 0px;
 }
 
 /* Навигация сайта*/
@@ -54,14 +62,15 @@ body {
   display: inline-block;
   vertical-align: top;
   padding-right: 50px;
+  margin: 0px;
 }
 .nav2 {
   display: inline-block;
   vertical-align: top;
   position: relative;
   left: 1078px;
-  top: 30px;
   padding-right: 50px;
+  margin: 0px;
 }
 .nav {
   position: absolute;
@@ -93,52 +102,205 @@ body {
 .menu:hover:after {
   display: block;
 }
+.article {
+  display: inline-block;
+  margin: 0px;
+}
 /*секция 1*/
 
 .section1 {
+  display: inline-block;
   position: relative;
   width: 1600px;
   height: 600px;
   background: #2f303a;
   margin: 0px;
 }
-.section2 {
+.services {
+  font-family: "Roboto";
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 30px;
+  margin: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
   position: relative;
+  top: 200px;
+}
+/*СЕКЦИЯ 2*/
+.section2 {
+  position: static;
   width: 1600px;
   height: 769px;
-  background: #e5e5e5;
+  background: #ffffff;
 }
+.text-align {
+  display: inline-block;
+  position: relative;
+  left: 235px;
+  padding-top: 50px;
+  margin: 0px;
+  padding-left: 0px;
+  z-index: 1;
+}
+.gorizont {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px;
+}
+.blok {
+  width: 270px;
+  height: 105px;
+  margin: 0px;
+  padding-right: 30px;
+}
+.blok h5 {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #212121;
+}
+.blok p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+.heading {
+  text-align: center;
+  position: relative;
+  padding-top: 94px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+  margin: 0px;
+  z-index: 0;
+}
+.img-box {
+  position: relative;
+  left: 215px;
+  margin: 0px;
+  padding-left: 0px;
+  padding-top: 50px;
+  display: inline-block;
+}
+.img-blok {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 30px;
+}
+
+/* СЕКЦИЯ 3 (Наша Команда) */
 .section3 {
-  position: relative;
+  position: static;
   width: 1600px;
   height: 648px;
   background: #f5f4fa;
+  margin: 0px;
 }
-.section4 {
-  position: relative;
-  width: 1600px;
-  height: 648px;
-  background: #f5f4fa;
+.our-team {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  color: #212121;
+  margin: 0px;
+  padding-top: 94px;
 }
-/*Секция 4 "Наша команда"*/
+.box-team {
+  margin: 0px;
+  padding-left: 215px;
+  display: inline-block;
+  padding-top: 50px;
+}
+
 .list-comand {
   display: inline-block;
   vertical-align: top;
+  padding-right: 30px;
 }
 .bloc-comand {
   display: inline-block;
-  vertical-align: top;
   width: 270px;
   height: 368px;
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.bloc-comand p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #212121;
+  text-align: center;
+}
+.bloc-comand p:last-child {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
 }
 .size-img {
-  width: 260px;
+  width: 270px;
 }
 
 /*ПОДВАЛ*/
 .footer {
-  position: relative;
+  display: inline-block;
+  position: static;
   width: 1600px;
   height: 252px;
   background: #2f303a;
+  margin: 0px;
+}
+.logo-footer {
+  padding-top: 60px;
+  padding-left: 215px;
+  margin: 0px;
+}
+.address {
+  display: inline-block;
+  padding-top: 25px;
+  padding-left: 215px;
+  margin: 0px;
+}
+.address address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 34px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin: 0px;
+}
+.address a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 34px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0px;
+}
+.address p {
+  margin: 0px;
 }
