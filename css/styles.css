@@ -25,13 +25,15 @@ body {
   font-weight: 500;
   font-size: 14px;
   color: #757575;
+  text-decoration: none;
 }
 .fontweb {
-  font-family: "raleway";
+  font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   color: #2196f3;
+  margin: 0px;
 }
 
 .fontstudio {
@@ -39,6 +41,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
+  margin: 0px;
 }
 .fontstudio1 {
   font-family: "raleway";
@@ -60,16 +63,34 @@ body {
 /* Навигация сайта*/
 .nav1 {
   display: inline-block;
-  vertical-align: top;
+  padding-top: 0px;
   padding-right: 50px;
   margin: 0px;
+  color: #212121;
 }
 .nav2 {
   display: inline-block;
-  vertical-align: top;
-  position: relative;
-  left: 1078px;
   padding-right: 50px;
+  padding-left: 281px;
+  margin: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+.nav2 a {
+  color: #757575;
+}
+.nav3 a {
+  display: inline-block;
+  margin: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+.nav3 {
+  color: #757575;
   margin: 0px;
 }
 .nav {
@@ -127,6 +148,10 @@ body {
   text-align: center;
   position: relative;
   top: 200px;
+}
+.services p {
+  margin: 0px;
+  line-height: 60px;
 }
 /*СЕКЦИЯ 2*/
 .section2 {
@@ -300,6 +325,7 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   margin: 0px;
+  text-decoration: none;
 }
 .address p {
   margin: 0px;
