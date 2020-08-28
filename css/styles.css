@@ -92,7 +92,7 @@ body {
 }
 
 .article {
-  display: inline-block;
+  display: block;
   margin: 0px;
 }
 .address-link {
@@ -134,13 +134,19 @@ body {
 }
 /*секция 1*/
 
-.section1 {
-  display: inline-block;
-  position: relative;
-  width: 1600px;
-  height: 600px;
-  background: #2f303a;
-  margin: 0px;
+.section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: flex;
+}
+.bissnes {
+  background-color: #2f303a;
+}
+.flexbox1 {
+  align-items: center;
+}
+.flexbox1 .btn {
+  align-items: center;
 }
 .services {
   font-family: "Roboto";
@@ -151,12 +157,27 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
-  position: relative;
-  top: 200px;
 }
 .services p {
+  display: flex;
   margin: 0px;
   line-height: 60px;
+  align-items: center;
+}
+.btn {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
 }
 /*СЕКЦИЯ 2*/
 .section2 {
@@ -166,17 +187,15 @@ body {
   background: #ffffff;
 }
 .text-align {
-  display: inline-block;
-  position: relative;
-  left: 235px;
+  display: flex;
   padding-top: 50px;
   margin: 0px;
   padding-left: 0px;
-  z-index: 1;
+  align-items: center;
 }
 .gorizont {
-  position: relative;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   vertical-align: top;
   margin: 0px;
 }
@@ -185,6 +204,7 @@ body {
   height: 105px;
   margin: 0px;
   padding-right: 30px;
+  align-items: center;
 }
 .blok h5 {
   font-family: "Roboto";
@@ -216,12 +236,10 @@ body {
   z-index: 0;
 }
 .img-box {
-  position: relative;
-  left: 215px;
   margin: 0px;
   padding-left: 0px;
   padding-top: 50px;
-  display: inline-block;
+  display: flex;
 }
 .img-blok {
   display: inline-block;
