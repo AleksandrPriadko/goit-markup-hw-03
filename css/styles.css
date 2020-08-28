@@ -7,24 +7,29 @@ html {
   box-sizing: inherit;
 }
 body {
-  margin: 0px;
-  font-family: "Roboto";
-  z-index: 0;
+  font-family: "Roboto", "Raleway";
+  font-size: 14px;
+  line-height: 1.625;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flexbox {
+  display: flex;
+  height: 80px;
+}
+/* ШАПКА */
 /*Логотип*/
 .logo {
-  display: inline-block;
+  display: inline-flex;
   margin: 0px;
-  position: relative;
-  left: 215px;
-  top: 24px;
-}
-.cont {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  color: #757575;
+  margin-right: 95px;
   text-decoration: none;
 }
 .fontweb {
@@ -35,13 +40,13 @@ body {
   color: #2196f3;
   margin: 0px;
 }
-
 .fontstudio {
-  font-family: "raleway";
+  font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   margin: 0px;
+  color: #212121;
 }
 .fontstudio1 {
   font-family: "raleway";
@@ -51,54 +56,30 @@ body {
   color: #ffffff;
 }
 
-/* Шапка сайта*/
-.Header {
-  display: inline-block;
-  background: #ffffff;
-  position: static;
-  width: 1600px;
-  height: 80px;
+/* Навигация сайта*/
+.menu-item {
+  /* display: inline-block; */
 }
 
-/* Навигация сайта*/
-.nav1 {
-  display: inline-block;
-  padding-top: 0px;
-  padding-right: 50px;
-  margin: 0px;
-  color: #212121;
+.menu-item:not(:last-child) {
+  margin-right: 50px;
 }
-.nav2 {
-  display: inline-block;
-  padding-right: 50px;
-  padding-left: 281px;
-  margin: 0px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
+
+.navigation .menu-list {
+  display: inline-flex;
+  align-items: center;
 }
-.nav2 a {
-  color: #757575;
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
 }
-.nav3 a {
-  display: inline-block;
-  margin: 0px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
+
+.navigation {
+  align-items: center;
+  margin-right: auto;
 }
-.nav3 {
-  color: #757575;
-  margin: 0px;
-}
-.nav {
-  position: absolute;
-  left: 453px;
-  top: 32px;
-}
-.menu {
+.menu-link {
   color: #212121;
   font-family: "Roboto";
   font-weight: 500;
@@ -106,26 +87,50 @@ body {
   text-decoration: none;
   transition: color 0.2s linear;
 }
-
-.menu:after {
-  display: block;
-  width: 100%;
-  height: 1.5px;
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1;
-}
-.menu:hover {
+.menu-link:hover {
   color: #2196f3;
 }
-.menu:hover:after {
-  display: block;
-}
+
 .article {
   display: inline-block;
   margin: 0px;
+}
+.address-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  margin-right: 50px;
+  text-decoration: none;
+  transition: color 0.2s linear;
+}
+.address-link:hover {
+  color: #2196f3;
+}
+.phone-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.phone-link:hover {
+  color: #2196f3;
+}
+
+/* Шапка сайта*/
+.header {
+  background: #ffffff;
+}
+.header .flexbox {
+  justify-content: flex-end;
+  align-items: center;
 }
 /*секция 1*/
 
