@@ -182,24 +182,40 @@ body {
   margin-right: auto;
 }
 /*СЕКЦИЯ 2*/
-/* .info {
-  position: static;
-  width: 1600px;
-  height: 769px;
+.info {
   background: #ffffff;
-} */
+}
 
 .text-align {
   display: flex;
+  align-items: center;
   margin: 0px;
   padding-left: 0px;
-  align-items: center;
 }
-.gorizont {
-  display: flex;
-  align-items: center;
-  vertical-align: top;
+.list-main h5 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.list-main p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
   margin: 0px;
+  display: block;
+  width: 270px;
+  height: 75px;
 }
 .blok {
   width: 270px;
