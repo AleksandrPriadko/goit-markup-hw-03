@@ -1,11 +1,13 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::after,
 *::before {
   box-sizing: inherit;
 }
+
 body {
   font-family: 'Roboto', 'Raleway';
   font-size: 14px;
@@ -13,6 +15,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -20,9 +23,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .flexbox {
   display: flex;
 }
+
 /* ШАПКА */
 /*Логотип*/
 .logo {
@@ -31,6 +36,7 @@ body {
   margin-right: 95px;
   text-decoration: none;
 }
+
 .fontweb {
   font-family: 'Raleway';
   font-style: normal;
@@ -39,6 +45,7 @@ body {
   color: #2196f3;
   margin: 0px;
 }
+
 .fontstudio {
   font-family: 'Raleway';
   font-style: normal;
@@ -47,6 +54,7 @@ body {
   margin: 0px;
   color: #212121;
 }
+
 .fontstudio1 {
   font-family: 'raleway';
   font-style: normal;
@@ -65,6 +73,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 .list {
   list-style: none;
   margin: 0;
@@ -76,6 +85,7 @@ body {
   align-content: center;
   margin-right: auto;
 }
+
 .menu-link {
   color: #212121;
   font-family: 'Roboto';
@@ -84,6 +94,7 @@ body {
   text-decoration: none;
   transition: color 0.2s linear;
 }
+
 .menu-link:hover {
   color: #2196f3;
 }
@@ -92,6 +103,7 @@ body {
   display: block;
   margin: 0px;
 }
+
 .address-link {
   font-family: 'Roboto';
   font-style: normal;
@@ -105,9 +117,11 @@ body {
   transition: color 0.2s linear;
   align-items: center;
 }
+
 .address-link:hover {
   color: #2196f3;
 }
+
 .phone-link {
   font-family: 'Roboto';
   font-style: normal;
@@ -119,6 +133,7 @@ body {
   text-decoration: none;
   align-items: center;
 }
+
 .phone-link:hover {
   color: #2196f3;
 }
@@ -130,16 +145,19 @@ body {
   padding-bottom: 25px;
   border: 1px solid #ececec;
 }
+
 .header .flexbox {
   justify-content: flex-end;
   align-items: center;
 }
+
 /*секция 1*/
 
 .section {
   padding-top: 95px;
   padding-bottom: 95px;
 }
+
 .bissnes {
   background-color: #2f303a;
   padding-top: 200px;
@@ -156,11 +174,13 @@ body {
   text-transform: uppercase;
   padding-bottom: 30px;
 }
+
 .services p {
   margin: 0px;
   line-height: 60px;
   text-align: center;
 }
+
 .btn {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -182,6 +202,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 /*СЕКЦИЯ 2*/
 .info {
   background: #ffffff;
@@ -193,12 +214,15 @@ body {
   padding-left: 0px;
   padding-bottom: 95px;
 }
+
 .text-align .list-main:not(:last-child) {
   margin-right: 30px;
 }
+
 .list-main {
   display: block;
 }
+
 .list-main h5 {
   font-family: 'Roboto';
   font-style: normal;
@@ -211,6 +235,7 @@ body {
   margin-top: 0px;
   margin-bottom: 10px;
 }
+
 .list-main p {
   font-family: 'Roboto';
   font-style: normal;
@@ -224,6 +249,7 @@ body {
   width: 270px;
   height: 75px;
 }
+
 .blok {
   width: 270px;
   height: 105px;
@@ -231,6 +257,7 @@ body {
   padding-right: 30px;
   align-items: center;
 }
+
 .blok h5 {
   font-family: 'Roboto';
   font-weight: bold;
@@ -239,6 +266,7 @@ body {
   text-transform: uppercase;
   color: #212121;
 }
+
 .blok p {
   font-family: 'Roboto';
   font-style: normal;
@@ -247,6 +275,7 @@ body {
   line-height: 24px;
   color: #757575;
 }
+
 .heading {
   text-align: center;
   font-family: 'Roboto';
@@ -258,15 +287,18 @@ body {
   margin: 0px;
   padding-bottom: 50px;
 }
+
 .img-box {
   display: flex;
   align-items: center;
   margin: 0px;
   padding-left: 0px;
 }
+
 .img-box li {
   display: block;
 }
+
 .img-blok:not(:last-child) {
   padding-right: 30px;
 }
@@ -276,6 +308,7 @@ body {
   background: #f5f4fa;
   padding-top: 0px;
 }
+
 .our-team {
   font-family: 'Roboto';
   font-style: normal;
@@ -287,17 +320,21 @@ body {
   padding-top: 95px;
   padding-bottom: 50px;
 }
+
 .box-team {
   margin: 0px;
   padding-left: 0px;
 }
+
 .list-comand:not(:last-child) {
   padding-right: 30px;
 }
+
 .list-comand {
   display: block;
   padding-right: 0px;
 }
+
 .bloc-comand {
   display: inline-block;
   width: 270px;
@@ -307,6 +344,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .bloc-comand p {
   font-family: 'Roboto';
   font-style: normal;
@@ -316,6 +354,7 @@ body {
   color: #212121;
   text-align: center;
 }
+
 .bloc-comand p:last-child {
   text-align: center;
   font-family: 'Roboto';
@@ -325,6 +364,7 @@ body {
   line-height: 19px;
   color: #757575;
 }
+
 .size-img {
   width: 270px;
 }
@@ -336,14 +376,17 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .logo-footer {
   margin: 0px;
   padding-bottom: 20px;
 }
+
 .address {
   display: inline-block;
   margin: 0px;
 }
+
 .address address {
   font-family: 'Roboto';
   font-style: normal;
@@ -354,6 +397,7 @@ body {
   color: #ffffff;
   margin: 0px;
 }
+
 .address a {
   font-style: normal;
   font-weight: normal;
@@ -364,6 +408,7 @@ body {
   margin: 0px;
   text-decoration: none;
 }
+
 .address p {
   margin: 0px;
 }
@@ -384,13 +429,78 @@ body {
   height: 38px;
   padding: 6px 12px;
   text-decoration: none;
+  transition: color 0.2s linear;
 }
+
+.botton:hover {
+  background: #2196F3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
 .nav-portfolio {
-  /*  display: inline; */
   margin: 0px;
   padding-left: 0px;
-  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding-bottom: 50px;
 }
+
 .portfolio-link:not(:last-child) {
   padding-right: 10px;
+}
+
+.flexbox-port {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0px 0px;
+  padding: 0 0;
+
+}
+
+.list-port {
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.list-port:nth-child(3n) {
+  padding-right: 0px;
+}
+
+.container-box {
+  display: block;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+
+}
+
+.container-box p:not(:last-child) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin: 0px 0px;
+}
+
+.container-box p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  display: block;
+  margin: 0px 0px;
+}
+
+.img-size {
+  width: 360px;
 }
