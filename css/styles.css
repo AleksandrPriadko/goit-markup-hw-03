@@ -128,6 +128,7 @@ body {
   background: #ffffff;
   padding-top: 25px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 .header .flexbox {
   justify-content: flex-end;
@@ -365,4 +366,25 @@ body {
 }
 .address p {
   margin: 0px;
+}
+
+/* ПОРТФОЛИО */
+.botton {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 128px;
+  height: 38px;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+.nav-portfolio {
+  display: inline-block;
 }
