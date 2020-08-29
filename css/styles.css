@@ -7,7 +7,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  font-family: "Roboto", "Raleway";
+  font-family: 'Roboto', 'Raleway';
   font-size: 14px;
   line-height: 1.625;
   letter-spacing: 0.02em;
@@ -32,7 +32,7 @@ body {
   text-decoration: none;
 }
 .fontweb {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -40,7 +40,7 @@ body {
   margin: 0px;
 }
 .fontstudio {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -48,7 +48,7 @@ body {
   color: #212121;
 }
 .fontstudio1 {
-  font-family: "raleway";
+  font-family: 'raleway';
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -78,7 +78,7 @@ body {
 }
 .menu-link {
   color: #212121;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
@@ -93,7 +93,7 @@ body {
   margin: 0px;
 }
 .address-link {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -109,7 +109,7 @@ body {
   color: #2196f3;
 }
 .phone-link {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -146,7 +146,7 @@ body {
 }
 
 .services {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-size: 44px;
   font-weight: 900;
   line-height: 30px;
@@ -164,7 +164,7 @@ body {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -182,15 +182,15 @@ body {
   margin-right: auto;
 }
 /*СЕКЦИЯ 2*/
-.section2 {
+/* .info {
   position: static;
   width: 1600px;
   height: 769px;
   background: #ffffff;
-}
+} */
+
 .text-align {
   display: flex;
-  padding-top: 50px;
   margin: 0px;
   padding-left: 0px;
   align-items: center;
@@ -209,7 +209,7 @@ body {
   align-items: center;
 }
 .blok h5 {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -217,7 +217,7 @@ body {
   color: #212121;
 }
 .blok p {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -228,7 +228,7 @@ body {
   text-align: center;
   position: relative;
   padding-top: 94px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -258,7 +258,7 @@ body {
   margin: 0px;
 }
 .our-team {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -291,7 +291,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .bloc-comand p {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -301,7 +301,7 @@ body {
 }
 .bloc-comand p:last-child {
   text-align: center;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -333,7 +333,7 @@ body {
   margin: 0px;
 }
 .address address {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
