@@ -433,12 +433,11 @@ body {
 }
 
 .botton:hover {
-  background: #2196F3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-    0px 1px 2px rgba(0, 0, 0, 0.08),
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .nav-portfolio {
@@ -459,7 +458,6 @@ body {
   list-style: none;
   margin: 0px 0px;
   padding: 0 0;
-
 }
 
 .list-port {
@@ -471,19 +469,18 @@ body {
   padding-right: 0px;
 }
 
-.list-port:nth-child(n+6) {
+.list-port:nth-child(n + 6) {
   padding-bottom: 0px;
 }
 
 .container-box {
   display: block;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
-
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 .container-box p:not(:last-child) {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -494,7 +491,7 @@ body {
 }
 
 .container-box p {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
