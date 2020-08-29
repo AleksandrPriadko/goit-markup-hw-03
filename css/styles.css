@@ -389,6 +389,7 @@ body {
   /*  display: inline; */
   margin: 0px;
   padding-left: 0px;
+  align-items: center;
 }
 .portfolio-link:not(:last-child) {
   padding-right: 10px;
