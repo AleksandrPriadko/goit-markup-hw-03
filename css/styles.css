@@ -190,6 +190,7 @@ body {
   display: flex;
   margin: 0px;
   padding-left: 0px;
+  padding-bottom: 95px;
 }
 .text-align .list-main:not(:last-child) {
   margin-right: 30px;
@@ -248,7 +249,6 @@ body {
 .heading {
   text-align: center;
   position: relative;
-  padding-top: 94px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
@@ -271,12 +271,9 @@ body {
 }
 
 /* СЕКЦИЯ 3 (Наша Команда) */
-.section3 {
-  position: static;
-  width: 1600px;
-  height: 648px;
+.comand {
   background: #f5f4fa;
-  margin: 0px;
+  padding-top: 0px;
 }
 .our-team {
   font-family: 'Roboto';
