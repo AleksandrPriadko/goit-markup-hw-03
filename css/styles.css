@@ -172,11 +172,12 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   display: inline-block;
-  width: 200px;
-  height: 50px;
+  min-width: 200px;
+  min-height: 50px;
   color: #ffffff;
   padding: 0px;
-  padding: 10px, 32px;
+  padding: 10px 32px;
+  text-decoration: none;
 }
 /*СЕКЦИЯ 2*/
 .section2 {
