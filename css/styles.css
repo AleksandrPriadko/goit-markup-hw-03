@@ -22,7 +22,6 @@ body {
 }
 .flexbox {
   display: flex;
-  height: 80px;
 }
 /* ШАПКА */
 /*Логотип*/
@@ -57,16 +56,13 @@ body {
 }
 
 /* Навигация сайта*/
-.menu-item {
-  /* display: inline-block; */
-}
 
 .menu-item:not(:last-child) {
   margin-right: 50px;
 }
 
 .navigation .menu-list {
-  display: inline-flex;
+  display: flex;
   align-items: center;
 }
 .list {
@@ -76,7 +72,8 @@ body {
 }
 
 .navigation {
-  align-items: center;
+  display: flex;
+  align-content: center;
   margin-right: auto;
 }
 .menu-link {
@@ -106,6 +103,7 @@ body {
   margin-right: 50px;
   text-decoration: none;
   transition: color 0.2s linear;
+  align-items: center;
 }
 .address-link:hover {
   color: #2196f3;
@@ -119,6 +117,7 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
+  align-items: center;
 }
 .phone-link:hover {
   color: #2196f3;
@@ -127,6 +126,8 @@ body {
 /* Шапка сайта*/
 .header {
   background: #ffffff;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .header .flexbox {
   justify-content: flex-end;
@@ -135,19 +136,15 @@ body {
 /*секция 1*/
 
 .section {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  display: flex;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 .bissnes {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
-.flexbox1 {
-  align-items: center;
-}
-.flexbox1 .btn {
-  align-items: center;
-}
+
 .services {
   font-family: "Roboto";
   font-size: 44px;
@@ -156,13 +153,12 @@ body {
   margin: 0px;
   color: #ffffff;
   text-transform: uppercase;
-  text-align: center;
+  padding-bottom: 30px;
 }
 .services p {
-  display: flex;
   margin: 0px;
   line-height: 60px;
-  align-items: center;
+  text-align: center;
 }
 .btn {
   background: #2196f3;
@@ -175,9 +171,12 @@ body {
   line-height: 30px;
   text-align: center;
   letter-spacing: 0.06em;
+  display: inline-block;
   width: 200px;
   height: 50px;
   color: #ffffff;
+  padding: 0px;
+  padding: 10px, 32px;
 }
 /*СЕКЦИЯ 2*/
 .section2 {
