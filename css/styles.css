@@ -188,9 +188,14 @@ body {
 
 .text-align {
   display: flex;
-  align-items: center;
   margin: 0px;
   padding-left: 0px;
+}
+.text-align .list-main:not(:last-child) {
+  margin-right: 30px;
+}
+.list-main {
+  display: block;
 }
 .list-main h5 {
   font-family: 'Roboto';
