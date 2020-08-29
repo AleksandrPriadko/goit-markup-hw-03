@@ -330,22 +330,17 @@ body {
 
 /*ПОДВАЛ*/
 .footer {
-  display: inline-block;
-  position: static;
-  width: 1600px;
-  height: 252px;
   background: #2f303a;
   margin: 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer {
-  padding-top: 60px;
-  padding-left: 215px;
   margin: 0px;
+  padding-bottom: 20px;
 }
 .address {
   display: inline-block;
-  padding-top: 25px;
-  padding-left: 215px;
   margin: 0px;
 }
 .address address {
